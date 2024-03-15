@@ -28,7 +28,11 @@ The purpose of this analysis is to use existing data to create a model that will
 
 
 ### Summary
-The model performed well, but 75% is a pretty low bar considering the ask amounts given in the data, and I'd aim for a better model. I think dramatically different data is needed for the bulk of the data (ask amounts of $5000) vs. some of the data where ask amounts are as high as Billions of dollars. More research is definitely needed. 
+![Classification Report](https://github.com/koskadelli/deep-learning-challenge/Final_Accuracy_Eval.png)
+The model performed well, but 75% is a pretty low bar considering the ask amounts given in the data (some in the billions of dollars), and thus I'd aim for a better model. Some ideas to get a better predictive model moving forward:
+* Low stakes ($25,000 requests and under) and high stakes ($25,000+) requests need different modeling
+* Additional data is necessary for high stakes requests. Some ideas include revenue in addition to income, cash on hand, etc.
+* Additional research into different modeling functions and techniques beyond the scope of this project. 
 
 # References
 * Sklearn documentation: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
