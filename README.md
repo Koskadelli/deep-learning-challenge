@@ -28,7 +28,7 @@ The purpose of this analysis is to use existing data to create a model that will
 
 
 ### Summary
-![Classification Report](https://github.com/koskadelli/deep-learning-challenge/Final_Accuracy_Eval.png)
+![Classification Report](Final_Accuracy_Eval.png)
 The model performed well, but 75% is a pretty low bar considering the ask amounts given in the data (some in the billions of dollars), and thus I'd aim for a better model. Some ideas to get a better predictive model moving forward:
 * Low stakes ($25,000 requests and under) and high stakes ($25,000+) requests need different modeling
 * Additional data is necessary for high stakes requests. Some ideas include revenue in addition to income, cash on hand, etc.
